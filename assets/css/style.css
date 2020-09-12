@@ -11,6 +11,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* Start Header Styles */
 header {
     /* apply styles to the <header> */
     padding: 20px 35px;
@@ -44,7 +45,9 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+/* End header styles */
 
+/* Start footer styles */
 footer {
     background: #fce138;
     width: 100%;
@@ -67,9 +70,28 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* End Footer Styles */
 
+/* Each section has this spacing around it */
 section {
     padding: 60px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid; 
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border{ 
+    border-color: #39a6b2;
 }
 
 /*Hero start*/
@@ -126,6 +148,7 @@ section {
 }
 /*Hero end*/
 
+/* Intro starts */
 .intro {
     text-align: center;
 }
@@ -137,7 +160,9 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+/* Intro ends */
 
+/* Steps begin */
 .steps {
     text-align: center;
     background: #fce138;
@@ -166,24 +191,9 @@ section {
 .steps span {
     font-size: 38px
 }
+/* Steps end */
 
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid; 
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border{ 
-    border-color: #39a6b2;
-}
-
+/* Trainers begin */
 .trainers {
     text-align: center;
 }
@@ -222,7 +232,9 @@ section {
     font-size: 17px;
     line-height: 1.3;
 }
+/* Trainers end */
 
+/* UTILITY STYLES */
 .text-left {
     text-align: left;
 }
@@ -230,3 +242,45 @@ section {
 .text-right {
     text-align: right;
 }
+/* END UTILITY STYLES */
+
+/* CONTACT STYLES START */
+.contact {
+    background: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a{
+    color: #fce138;
+}
+/* CONTACT STYLES END */

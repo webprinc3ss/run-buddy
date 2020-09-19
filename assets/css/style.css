@@ -200,16 +200,62 @@ section {
     font-size: 20px;
     margin: 0 auto;
     text-align: center;
-    
+
 }
 /* Intro ends */
 
 /* Steps begin */
+.step {
+    margin: 50px auto;
+    padding-bottom: 50px;
+    width: 80%;
+    border-bottom: 1px solid #39a6b2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 .steps {
     /* text-align: center; Removed for Flex */
     background: #fce138;
 }
 
+.step h3 {
+    color: #024e76;
+    font-size: 46px;
+    flex: 1 30%;
+    /* margin-top: 10px; Removed for Flex */
+}
+
+.step-info {
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.step-text p {
+    color: #39a692;
+    font-size: 18px;
+}
+
+.step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  .step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+  }
+
+  .step-img img {
+    max-width: 100%;
+  }
+
+/* Removed for Flex
 .steps div {
     margin-bottom: 80px;
 }
@@ -218,21 +264,9 @@ section {
     width: 15%;
     margin: 10px 0;
 }
-
-.steps h3 {
-    color: #024e76;
-    font-size: 46px;
-    margin-top: 10px;
-}
-
-.steps p {
-    color: #39a692;
-    font-size: 23px;
-}
-
 .steps span {
     font-size: 38px
-}
+} */
 /* Steps end */
 
 /* Trainers begin */

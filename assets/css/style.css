@@ -96,10 +96,14 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; Removed for Flex 
     padding: 0 100px 20px 100px;
-    display: inline-block;
+    display: inline-block;*/
     border-bottom: 3px solid; 
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -185,9 +189,9 @@ section {
 /*Hero end*/
 
 /* Intro starts */
-.intro {
+/* .intro {
     text-align: center;
-}
+} Removed for Flex */
 
 .intro p {
     line-height: 1.7;
@@ -195,12 +199,14 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
+    
 }
 /* Intro ends */
 
 /* Steps begin */
 .steps {
-    text-align: center;
+    /* text-align: center; Removed for Flex */
     background: #fce138;
 }
 
@@ -231,7 +237,7 @@ section {
 
 /* Trainers begin */
 .trainers {
-    text-align: center;
+    /* text-align: center; Removed for Flex */
 }
 
 .trainer {
@@ -278,12 +284,16 @@ section {
 .text-right {
     text-align: right;
 }
+
+.flex-row {
+    display: flex;
+  }
 /* END UTILITY STYLES */
 
 /* CONTACT STYLES START */
 .contact {
     background: #024e76;
-    text-align: center;
+    /* text-align: center; Removed for Flex */
 }
 
 .contact h2 {
